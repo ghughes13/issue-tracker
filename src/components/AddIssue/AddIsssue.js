@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import "./AddIssue.css";
 
 function AddIssue() {
-  const [addIssue, setAddIssue] = useState(true);
-
   return (
     <div className="add-issue">
       <form>
