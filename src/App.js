@@ -22,11 +22,11 @@ function App() {
         {addIssue ? <AddIssue /> : <CurrentIssue />}
       </div>
       <div className="view-selection-div">
-        <button class="view-button" onClick={() => showCurrentIssue()}>
+        <button className="view-button" onClick={() => showCurrentIssue()}>
           Current Issues
         </button>
         <button
-          class="view-button active-button"
+          className="view-button active-button"
           onClick={() => showAddIssue()}
         >
           Add Issue
